@@ -4,7 +4,7 @@ const productosJson = "./archivos/productos.json"
 document.addEventListener("DOMContentLoaded",function() {
 
     cargarDatosHelados(heladosJson)
-    cargarDatosProductos(productosJson)
+    //cargarDatosProductos(productosJson)
 })
 
 
@@ -117,13 +117,12 @@ function mostrarTodosHelados(sabores) {
     
     productos.forEach(producto => {
       const card = `
-        <div class="col-md-2 mb-2">
+        <div class="col-md-4 mb-2">
           <div class="card">
             <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
             <div class="card-body">
               <h5 class="card-title">${producto.nombre}</h5>
               <p class="card-text">${producto.descripcion}</p>
-              <p class="card-text">$${producto.precio.toFixed(2)}</p>
             </div>
           </div>
         </div>
