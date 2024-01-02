@@ -1,0 +1,77 @@
+{
+    "sabores_helado": [
+      {
+        "id": 1,
+        "nombre": "Chocolate",
+        "tipo": "chocolate",
+        "descripcion": "Delicioso helado sabor chocolate con trozos de chocolate negro.",
+        "disponible": true,
+        "sintacc": true,
+        "precio": 3.50
+      },
+      {
+        "id": 2,
+        "nombre": "Vainilla",
+        "tipo": "crema",
+        "descripcion": "Suave helado con un delicado sabor a vainilla.",
+        "disponible": true,
+        "sintacc": true,
+        "precio": 3.00
+      },
+      {
+        "id": 3,
+        "nombre": "Fresa",
+        "tipo": "crema",
+        "descripcion": "Helado refrescante con sabor a fresa natural.",
+        "disponible": true,
+        "sintacc": true,
+        "precio": 3.20
+      },
+      {
+        "id": 4,
+        "nombre": "Menta",
+        "tipo": "crema",
+        "descripcion": "Helado refrescante con sabor a menta y trozos de chocolate.",
+        "disponible": true,
+        "sintacc": false,
+        "precio": 3.50
+      },
+      {
+        "id": 5,
+        "nombre": "Limon",
+        "tipo": "frutal",
+        "descripcion": "Helado con un toque cítrico a limón.",
+        "disponible": false,
+        "sintacc": true,
+        "precio": 3.00
+      },
+      {
+        "id": 6,
+        "nombre": "Fresa",
+        "tipo": "frutal",
+        "descripcion": "Helado refrescante con sabor a fresa natural.",
+        "disponible": true,
+        "sintacc": true,
+        "precio": 3.20
+      },
+      {
+        "id": 7,
+        "nombre": "Chocolate Suizo",
+        "tipo": "chocolate",
+        "descripcion": "Helado refrescante con sabor a menta y trozos de chocolate.",
+        "disponible": true,
+        "sintacc": false,
+        "precio": 3.50
+      },
+      {
+        "id": 8,
+        "nombre": "Naranja",
+        "tipo": "frutal",
+        "descripcion": "Helado con un toque cítrico a limón.",
+        "disponible": true,
+        "sintacc": true,
+        "precio": 3.00
+      }
+    ]
+}
+  

@@ -1,0 +1,49 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "cucurucho",
+        "descripcion": "Delicioso helado sabor chocolate con trozos de chocolate negro.",
+        "disponible": true,
+        "precio": 3.50,
+        "imagen": "./imagenes/cucurucho.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "vaso",
+        "descripcion": "Suave helado con un delicado sabor a vainilla.",
+        "disponible": true,
+        "precio": 3.00,
+        "imagen": "./imagenes/vaso.jpg"
+
+      },
+      {
+        "id": 3,
+        "nombre": "1/4KG",
+        "descripcion": "Helado refrescante con sabor a fresa natural.",
+        "disponible": true,
+        "precio": 3.20,
+        "imagen": "./imagenes/cuarto.jpg"
+
+      },
+      {
+        "id": 4,
+        "nombre": "1/2KG",
+        "descripcion": "Helado refrescante con sabor a menta y trozos de chocolate.",
+        "disponible": true,
+        "precio": 3.50,
+        "imagen": "./imagenes/medio.jpg"
+
+      },
+      {
+        "id": 5,
+        "nombre": "1KG",
+        "descripcion": "Helado con un toque cítrico a limón.",
+        "disponible": false,
+        "precio": 3.00,
+        "imagen": "./imagenes/kilo.jpg"
+
+      }
+    ]
+}
+  

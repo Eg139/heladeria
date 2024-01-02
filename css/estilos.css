@@ -1,0 +1,155 @@
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: rgb(199, 201, 120);
+}
+
+#sabores {
+    position: relative;
+    background-image: url("../imagenes/helados.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); /* Ajusta el color del texto según sea necesario */
+  }
+  
+  #sabores::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(184, 184, 184, 0.479); /* Color negro semitransparente */
+    mix-blend-mode: overlay;
+  }
+
+  #listaSabores {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #listaSabores li {
+    list-style: none;
+
+    margin-bottom: 10px; /* Espacio entre elementos de lista */
+  }
+
+#productos{
+    width: 100%;
+    height: 95vh; 
+    background-color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+  }
+
+  a:hover,
+  a:active {
+    text-decoration: none; 
+    color: inherit;
+  }
+
+#adminProductos{
+    background-color: rgb(196, 238, 195);
+    a{
+        color: white;
+    }
+    a:hover{
+        color: rgb(154, 195, 231);
+    }
+}
+#adminSabores{
+    background-color: rgb(120, 212, 177);
+    a{
+        color: white;
+    }
+    a:hover{
+        color: rgb(154, 195, 231);
+    }
+}
+#carrousel{
+    img{
+        height: 100vh;
+    }
+}
+.btn-group{
+
+    button{
+
+        font-size: 10px;
+        text-align: center;
+    }
+}
+.sabores{
+    padding: 30px!important;
+
+}
+
+@media (max-width: 767px) {
+    .navbar {
+      width: 100%;
+    }
+    #carrousel{
+        img{
+            height: 50vh;
+        }
+    }
+    #productos, #sabores{
+        height: auto;
+    }
+    #sabores{
+        background-color: rgb(148, 224, 199);
+    }
+    #productos{
+        background-color: rgb(132, 219, 130);
+    }
+
+  }
+
+  #contacto{
+    a{
+        font-size: 20px;
+        font-weight: bold;
+    }
+  }
+
+  @media (max-width: 769px) {
+    #contacto{
+        a{
+            font-size: 18px;
+            font-weight: bold;
+
+        }
+        .col-md-4{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+      }
+      footer{
+        .col-md-6{
+            margin-bottom: 25px;
+        }
+      }
+
+
+  }
+
+
+  /* Estilos para el contenedor de la tabla */
+.table-container {
+    width: 100%; /* Ancho máximo del contenedor */
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+  }
+  
+  /* Asegura que la tabla sea responsive */
+  .table {
+    min-width: 400px; /* Tamaño mínimo de la tabla */
+  }
