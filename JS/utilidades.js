@@ -71,7 +71,7 @@ function mostrarTodosHelados(sabores) {
 
       if (sabor.sintacc) {
         const icono = document.createElement('img');
-        icono.src = "../imagenes/icons/gluttenfree.ico";
+        icono.src = "imagenes/icons/gluttenfree.ico";
         icono.style.width = "1.5rem";
   
         const nombre = document.createElement('strong');
