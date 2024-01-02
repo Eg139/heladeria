@@ -93,6 +93,62 @@ a {
 
 }
 
+
+.card-sabores {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../imagenes/helados.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-postres {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../imagenes/postres.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carta:hover{
+  .circulo{
+    background-color: rgba(127, 255, 212, 0.562);
+  }
+}
+
+.circulo {
+  background-color: rgba(211, 210, 210, 0.61);
+  width: 200px; /* Diámetro del círculo */
+  height: 200px; /* Diámetro del círculo */
+  border-radius: 50%; /* Hace que sea un círculo */
+  border: 4px solid rgb(179, 178, 178); /* Grosor y color del borde */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto {
+  text-align: center;
+}
+.texto span {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.texto a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 @media (max-width: 767px) {
     .navbar {
       width: 100%;
@@ -108,10 +164,6 @@ a {
     #sabores{
         background-color: rgb(148, 224, 199);
     }
-    #productos{
-        background-color: rgb(132, 219, 130);
-    }
-
   }
 
   #contacto{
@@ -122,6 +174,10 @@ a {
   }
 
   @media (max-width: 769px) {
+    *{
+      padding: 0;
+      margin: 0;
+    }
     #contacto{
         a{
             font-size: 18px;
@@ -139,6 +195,27 @@ a {
         }
       }
 
+      .card-sabores,
+      .card-postres {
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 350px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      
+      .circulo {
+        width: 150px; /* Diámetro del círculo */
+        height: 150px; /* Diámetro del círculo */
+      }
+      
+      .texto span {
+        font-size: 1.5rem;
+      }
+      .texto a {
+        font-size: 1.5rem;
+      }
 
   }
 
@@ -154,59 +231,5 @@ a {
     min-width: 400px; /* Tamaño mínimo de la tabla */
   }
 
-  .card-sabores {
-    width: 300px;
-    height: 450px;
-    position: relative;
-    overflow: hidden;
-    background-image: url("../imagenes/helados.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .card-postres {
-    width: 300px;
-    height: 450px;
-    position: relative;
-    overflow: hidden;
-    background-image: url("../imagenes/postres.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .carta:hover{
-    .circulo{
-      background-color: rgba(127, 255, 212, 0.562);
-    }
-  }
-  
-  .circulo {
-    background-color: rgba(211, 210, 210, 0.61);
-    width: 200px; /* Diámetro del círculo */
-    height: 200px; /* Diámetro del círculo */
-    border-radius: 50%; /* Hace que sea un círculo */
-    border: 4px solid rgb(179, 178, 178); /* Grosor y color del borde */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .texto {
-    text-align: center;
-  }
-  .texto span {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 2rem;
-  }
-  .texto a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 2rem;
-  }
 
     
