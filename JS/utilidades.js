@@ -1,5 +1,5 @@
-const heladosJson = './archivos/sabores.json'
-const productosJson = "./archivos/productos.json"
+const heladosJson = '../../../archivos/sabores.json'
+const productosJson = "../../../archivos/productos.json"
 
 document.addEventListener("DOMContentLoaded",function() {
 
@@ -45,9 +45,9 @@ function mostrarTodosHelados(sabores) {
   contenedorLista.innerHTML = ''; // Limpiar el contenido del contenedor
   var saboresPorTipo = {}; // Objeto para almacenar sabores agrupados por tipo
 
-  console.log(sabores)
+  // console.log(sabores)
   sabores.forEach(sabor => {
-    console.log(sabor)
+    // console.log(sabor)
     if (sabor.disponible === true) {
       if (!saboresPorTipo[sabor.tipo]) {
         saboresPorTipo[sabor.tipo] = [];
@@ -65,13 +65,13 @@ function mostrarTodosHelados(sabores) {
     contenedorLista.appendChild(tituloTipo);
 
     const lista = document.createElement('ul');
-    console.log(saboresDelTipo)
+    // console.log(saboresDelTipo)
     saboresDelTipo.forEach(sabor => {
       const listItem = document.createElement('li');
 
       if (sabor.sintacc) {
         const icono = document.createElement('img');
-        icono.src = "imagenes/icons/gluttenfree.ico";
+        icono.src = "../../imagenes/icons/gluttenfree.ico";
         icono.style.width = "1.5rem";
   
         const nombre = document.createElement('strong');

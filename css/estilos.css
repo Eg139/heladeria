@@ -77,7 +77,14 @@ a {
 }
 #carrousel{
     img{
-        height: 100vh;
+        height: 55vh;
+    }
+    p{
+      font-size: 4em;
+      font-weight: bold;
+      color: rgb(106, 206, 172);
+      text-align: center;
+      padding-bottom: 5rem;
     }
 }
 .btn-group{
